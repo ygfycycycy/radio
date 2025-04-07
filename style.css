@@ -1,8 +1,25 @@
-
-div.moxito {
-  font-size: 16px;
-  font-weight:500
+*{
+    margin: 0;
 }
+
+body{
+  background-color: #858484;
+}
+
+.logo__image {
+  display: block;
+  margin: 0px auto;
+}
+
+.logo__text {
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+
+  text-transform: uppercase;
+  color: #fff;
+}
+
 
 
 h1{
@@ -13,20 +30,20 @@ h1{
 }
 
 
-h2.a {
+.a {
   color: #000000;
   font-size: 80px;
   font-weight: 900;
 }
 
 
-h2.class {
+.class {
   color: #F9BF3B;
   font-size: 41px;
   font-weight: 900;
 }
 
-p.p {
+.p {
   color: #000000;
   font-size: 21px;
   font-weight: 500;
@@ -36,33 +53,33 @@ span{
 	font-weight: 900;
 }
 
-div.vodka {
+.vodka {
   color: #252525;
   font-size: 15px;
   font-weight: 500;
 }
 
 
-h3.idk {
+.idk {
   color: #252525;
   font-size: 30px;
   font-weight: 500;
 }
 
 
-div.cocacola {
+.cocacola {
   color: #4A4A4A;
   font-size: 23px;
   font-weight: 500;
 }
 
-div.fanta {
+.fanta {
   color: #4A4A4A;
   font-size: 16px;
   font-weight: 300;
 }
 
-div.sprite {
+.sprite {
   color: #4A4A4A;
   font-size: 16px;
   font-weight: 300;
@@ -90,7 +107,7 @@ p.nop {
 span.b {
   color: #000000;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 900;
 }
 
 
