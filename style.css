@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -20,15 +20,8 @@ body {
   padding: 22px 0px 53px 0px;
 }
 
-.intensive {
-  background-color: black;
-
-}
-
 .online {
-
   background-color: black;
-
 }
 
 .manyImage {
@@ -77,8 +70,7 @@ body {
 
 
 .class {
-  max-width: 687px;
-  height: 41px;
+
   top: 340px;
   left: 617px;
   text-transform: uppercase;
@@ -90,7 +82,7 @@ body {
 }
 
 .radio__text {
-  margin-bottom:75px;
+  margin-bottom: 75px;
   height: 77px;
   top: 401px;
   left: 389px;
@@ -141,9 +133,15 @@ body {
 }
 
 
-.intensivetitle {
-  max-width: 541px;
-  height: 35px;
+
+.intensive {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: #dfdfdf;
+}
+
+.intensive__title {
+  margin-top: 42px;
   top: 80px;
   left: 691px;
   color: #252525;
@@ -155,102 +153,84 @@ body {
 
 }
 
-.intensivetext {
-  max-width: 446px;
-  height: 27px;
-  top: 151px;
-  left: 738px;
+.intensive__text {
   color: #4A4A4A;
   text-align: center;
   font-size: 23px;
   font-weight: 500;
-  margin: 0px auto;
+  margin-bottom: 42px;
 
 }
 
-
-.intensiveitemstextA {
-  max-width: 360px;
-  height: 42px;
-  top: 436px;
-  left: 391px;
-  color: #4A4A4A;
-  text-align: center;
-  font-size: 16px;
-  font-weight: 300;
+.intensive-items {
+  display: flex;
+  justify-content: space-between;
 }
 
-.intensiveitemstextB {
+.intensive-item {
   max-width: 360px;
-  height: 63px;
-  top: 436px;
-  left: 781px;
-  color: #4A4A4A;
-  text-align: center;
-  font-size: 16px;
-  font-weight: 300;
 }
 
-.intensiveitemstextC {
-  max-width: 360px;
-  height: 76px;
-  top: 436px;
-  left: 1171px;
+.intensive-item__text {
   color: #4A4A4A;
   text-align: center;
-  font-size: 16px;
-  font-weight: 300;
+}
+
+
+
+.intensive-item__img {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+
+
+.intensive-item__img img {
+  width: 100%;
+
+}
+
+.online {
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .titleOnline {
-  max-width: 673px;
-  height: 35px;
-  top: 100px;
-  left: 857px;
+  margin-bottom: 16px;
   text-transform: uppercase;
   color: #F9BF3B;
-
+  text-align: right;
   font-size: 30px;
   font-weight: 900;
 }
 
+.onlineradio__item {
+  margin-bottom: 16px;
 
-.onlineradioA {
-  height: 272px;
-  top: 151px;
-  left: 780px;
-  color: #ffffff;
-
-  font-size: 16px;
-  font-weight: 300;
-}
-
-.onlineradioB {
-  height: 272px;
-  top: 151px;
-  left: 780px;
-  color: #ffffff;
-
-  font-size: 16px;
-  font-weight: 300;
-}
-
-.onlineradioC {
   max-width: 750px;
-  height: 272px;
-  top: 151px;
-  left: 780px;
-  color: #ffffff;
+}
 
+.onlineradio {
+  color: #ffffff;
+  text-align: right;
   font-size: 16px;
   font-weight: 300;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
 }
+
+
 
 .gggg {
-
+  text-align: right;
   color: #ffffff;
   font-size: 16px;
-  font-weight: 900;
+  font-weight: 500;
+
+  margin-bottom: 0px;
 }
 
 
@@ -287,7 +267,7 @@ div.c {
   margin: 10px auto;
   color: #000000;
   font-size: 16px;
-  font-weight: 300; 
+  font-weight: 300;
 }
 
 
@@ -345,13 +325,6 @@ div.j {
 
 
 
-.intensive {
-
-  padding-top: 100px;
-  padding-bottom: 100px;
-
-  background: #dfdfdf;
-}
 
 
 .divider {
@@ -360,14 +333,12 @@ div.j {
   max-width: 220px;
   height: 7px;
 
-  margin: 0 auto;
+  margin: 14px auto;
 
 
 }
 
-.intensive-items {
-  display: flex;
-}
+
 
 .manyLogo {
   display: flex;
